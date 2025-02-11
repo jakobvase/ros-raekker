@@ -1,0 +1,21 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 16px;
+    font-family: "Helvetica Neue", "Helvetica", "Roboto", "ui-sans-serif", "sans-serif";
+    background-color: oklch(80% 0 67);
+}
+
+body {
+    max-width: 80rem;
+    margin: 4rem auto 0;
+    padding: 4rem;
+    background-color: whitesmoke;
+}
+
+body>*+* {
+    margin-top: 1.5rem;
+}
