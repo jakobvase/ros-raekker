@@ -3,6 +3,15 @@
     padding: 0;
 }
 
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+h1 {
+    font-size: 1.6rem;
+}
+
 html {
     font-size: 16px;
     font-family: "Helvetica Neue", "Helvetica", "Roboto", "ui-sans-serif", "sans-serif";
@@ -10,12 +19,26 @@ html {
 }
 
 body {
-    max-width: 80rem;
-    margin: 4rem auto 0;
-    padding: 4rem;
     background-color: whitesmoke;
+    padding: .5rem;
 }
 
 body>*+* {
     margin-top: 1.5rem;
+}
+
+.images>*+* {
+    margin-top: .5rem;
+}
+
+@media (min-width: 600px) {
+    body {
+        max-width: calc(8rem + 900px);
+        margin: 4rem auto;
+        padding: 4rem;
+    }
+
+    body>*+* {
+        margin-top: 1.5rem;
+    }
 }
